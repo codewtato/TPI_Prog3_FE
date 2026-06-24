@@ -65,11 +65,16 @@ Además:
 - `getPedidos()` reconstruye en memoria `usuarioDto` y `producto` para que las pantallas sigan trabajando con objetos completos.
 - El usuario del pedido se identifica por `id`, que es consistente entre `usuarios.json` y `pedidos.json`.
 
-### Persistencia en memoria
+### Persistencia del frontend
 
-Las operaciones CRUD del panel de administración (crear, editar, eliminar categorías y productos) y los cambios de estado de pedidos **solo persisten en memoria**. Al recargar la página se vuelve al estado del JSON original. Esto es intencional para esta iteración.
+Las operaciones CRUD del panel de administración no escriben sobre los archivos JSON de `public/data`. En esta versión, los cambios se guardan en `localStorage`, así que:
 
-Los pedidos generados desde el checkout sí persisten en `localStorage` (clave `pedidos_local`).
+- categorías: se guardan con la clave `categorias_local`
+- productos: se guardan con la clave `productos_local`
+- pedidos generados desde el checkout: se guardan con la clave `pedidos_local`
+- cambios de estado de pedidos: se actualizan en `localStorage`
+
+El JSON funciona como fuente inicial de datos, y `localStorage` como la capa que conserva los cambios durante la sesión del navegador.
 
 ### Usuarios registrados
 
@@ -78,6 +83,15 @@ Los usuarios registrados desde `/register` se guardan en sesión (`localStorage`
 ### fetch()
 
 Toda la capa de datos está encapsulada en `src/utils/api.ts` con funciones (`getCategorias()`, `getProductos()`, etc.) y comentarios marcando los endpoints REST futuros (`// futuro: fetch('/api/productos')`).
+
+### Entrega y video
+
+La consigna pide entregar dos carpetas separadas:
+
+- `frontend/` para el proyecto Vite/TypeScript
+- `backend/` para el proyecto Gradle Java
+
+El video demostrativo debe cubrir ambas partes del proyecto y durar entre **15 y 20 minutos**.
 
 ---
 
@@ -96,3 +110,8 @@ src/pages/
   admin/products/      # FHU-09 — CRUD Productos
   admin/orders/        # FHU-10 — Gestión de pedidos
 ```
+
+
+## Entrega
+
+- **Video demostrativo:** https://youtu.be/q6uBtucuSU8?si=zWK2s85vqj2QyW0M
