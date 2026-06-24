@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "nombre": "Hamburguesa Clásica",
+    "precio": 4500,
+    "descripcion": "Carne 150g, lechuga, tomate, cebolla morada y mayonesa",
+    "stock": 50,
+    "imagen": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 1
+  },
+  {
+    "id": 2,
+    "nombre": "Hamburguesa Doble",
+    "precio": 6200,
+    "descripcion": "Doble carne 150g c/u, cheddar, panceta y salsa barbacoa",
+    "stock": 40,
+    "imagen": "https://images.unsplash.com/photo-1610440042657-612c34d95e9f?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Hamburguesa Completa",
+    "precio": 5500,
+    "descripcion": "Carne 150g, huevo, jamón, queso, lechuga y tomate",
+    "stock": 30,
+    "imagen": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 1
+  },
+  {
+    "id": 4,
+    "nombre": "Hamburguesa Veggie",
+    "precio": 5000,
+    "descripcion": "Medallón de lentejas y quinoa, rúcula, tomato confitado y hummus",
+    "stock": 20,
+    "imagen": "https://imgs.search.brave.com/vUU8kRyBw8UOoDFUuZja2znED53OJK7yhKK0fOgySrg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aG9sYS5jb20vaG9y/aXpvbi9sYW5kc2Nh/cGUvNWYyY2RlMjUz/ODExLWhhbWJ1cmd1/ZXNhcy12ZWdnaWVz/LXQuanBnP2ltPVJl/c2l6ZT0oNjQwKSx0/eXBlPWRvd25zaXpl",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Pizza Mozzarella",
+    "precio": 3800,
+    "descripcion": "Mozzarella, salsa de tomate y orégano",
+    "stock": 25,
+    "imagen": "https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 2
+  },
+  {
+    "id": 6,
+    "nombre": "Pizza Napolitana",
+    "precio": 4500,
+    "descripcion": "Mozzarella, rodajas de tomate, ajo, aceitunas y albahaca",
+    "stock": 25,
+    "imagen": "https://images.unsplash.com/photo-1593504049359-74330189a345?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 2
+  },
+  {
+    "id": 7,
+    "nombre": "Pizza Fugazzeta",
+    "precio": 4800,
+    "descripcion": "Mozzarella, cebolla caramelizada, jamón y aceitunas",
+    "stock": 20,
+    "imagen": "https://images.unsplash.com/photo-1579751626657-72bc17010498?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 2
+  },
+  {
+    "id": 8,
+    "nombre": "Pizza Especial",
+    "precio": 5200,
+    "descripcion": "Mozzarella, pepperoni, morrón, cebolla, huevo y aceitunas",
+    "stock": 15,
+    "imagen": "https://images.unsplash.com/photo-1571997478779-2adcbbe9ab2f?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 2
+  },
+  {
+    "id": 9,
+    "nombre": "Empanada de Carne",
+    "precio": 1200,
+    "descripcion": "Carne picada, cebolla, huevo duro, aceitunas y especias",
+    "stock": 100,
+    "imagen": "https://imgs.search.brave.com/59eMoaWJDRojEIbZWP0bDyOXFyd-uZ67f1Od9J5OdJo/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/LmJvbnZpdmV1ci5j/b20vZW1wYW5hZGFz/LWFyZ2VudGluYXMt/ZGUtY2FybmUtZm90/by1jZXJjYS5qcGc",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 3
+  },
+  {
+    "id": 10,
+    "nombre": "Empanada de Pollo",
+    "precio": 1200,
+    "descripcion": "Pollo desmenuzado, cebolla, morrón y crema",
+    "stock": 80,
+    "imagen": "https://imgs.search.brave.com/rzKU68f-NWlQMA1gEaSdY5ToiVPImNEDEeyt91Mu3V8/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/c3VwZXJwb2xsby5j/bC9pbWcvcmVjZXRh/cy9lbXBhbmFkYXMt/ZGUtcG9sbG8ud2Vi/cA",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 3
+  },
+  {
+    "id": 11,
+    "nombre": "Empanada Jamón y Queso",
+    "precio": 1100,
+    "descripcion": "Jamón cocido y mozzarella",
+    "stock": 90,
+    "imagen": "https://imgs.search.brave.com/7oHPZkFZ8_QQGTD7jyuHPv22MkZ0XOCuew9a7chmD3g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucmFwcGkuY29t/LmFyL3Byb2R1Y3Rz/L2Y1MWFiMWI4LTdh/MzUtNGZkZi1hYWRm/LWQyNmJmYjcyYTRk/NS5wbmc_ZD0zMDB4/MzAwJmU9d2VicCZx/PTEw",
+    "disponible": false,
+    "eliminado": false,
+    "categoriaId": 3
+  },
+  {
+    "id": 12,
+    "nombre": "Empanada de Verdura",
+    "precio": 1100,
+    "descripcion": "Espinaca, acelga, ricota y nuez moscada",
+    "stock": 60,
+    "imagen": "https://imgs.search.brave.com/CFN-cLWHvGEPaFwXsHGF1B06YLGa6dL6reSjESWoM1w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZWNl/dGFzbmF0dXJhLmNv/bS5hci9zaXRlcy9y/ZWNldGFzbmF0dXJh/L2ZpbGVzL25hdHVy/YS1mb3Rvcy13ZWIt/ZW5lcm8tNjU1eDQ3/NWVtcGFuYWRhc19k/ZV92ZXJkdXJhLmpw/Zw",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 3
+  },
+  {
+    "id": 13,
+    "nombre": "Coca-Cola 500ml",
+    "precio": 1500,
+    "descripcion": "Gaseosa Coca-Cola original 500ml",
+    "stock": 200,
+    "imagen": "https://imgs.search.brave.com/mpy_eqy5amQNhruIs_nGxxc5r3OB_e72krEXhJoEY1M/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/dmlhdHJlbnRvLmNv/bS5hci90aHVtYi8w/MDAwMDAwMDAwMDAx/MDY5NTUwMjI1NUEw/NkIzNC0yNjQ0LTRG/ODQtOUZFOS1DMDEz/RjQxMjA5N0EtMS0y/MDEtYV84MDB4ODAw/LmpwZWc",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 4
+  },
+  {
+    "id": 14,
+    "nombre": "Sprite 500ml",
+    "precio": 1500,
+    "descripcion": "Gaseosa Sprite 500ml",
+    "stock": 180,
+    "imagen": "https://images.unsplash.com/photo-1690988109041-458628590a9e?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 4
+  },
+  {
+    "id": 15,
+    "nombre": "Agua Mineral 500ml",
+    "precio": 1000,
+    "descripcion": "Agua mineral sin gas 500ml",
+    "stock": 300,
+    "imagen": "https://images.unsplash.com/photo-1616118132534-381148898bb4?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 4
+  },
+  {
+    "id": 16,
+    "nombre": "Cerveza Artesanal 473ml",
+    "precio": 2500,
+    "descripcion": "Cerveza artesanal rubia 473ml",
+    "stock": 100,
+    "imagen": "https://images.unsplash.com/photo-1594035900144-17151c9910af?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 4
+  },
+  {
+    "id": 17,
+    "nombre": "Papas Fritas Clásicas",
+    "precio": 2500,
+    "descripcion": "Papas fritas bastón crocantes con sal parrillera",
+    "stock": 70,
+    "imagen": "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 5
+  },
+  {
+    "id": 18,
+    "nombre": "Papas con Cheddar y Panceta",
+    "precio": 3500,
+    "descripcion": "Papas fritas bañadas en cheddar y panceta crocante",
+    "stock": 50,
+    "imagen": "https://images.unsplash.com/photo-1688978181542-87a886a16fbe?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 5
+  },
+  {
+    "id": 19,
+    "nombre": "Aros de Cebolla",
+    "precio": 2800,
+    "descripcion": "Aros de cebolla empanizados, servidos con salsa barbacoa",
+    "stock": 40,
+    "imagen": "https://images.unsplash.com/photo-1625938146369-adc83368bda7?w=600&q=80",
+    "disponible": true,
+    "eliminado": false,
+    "categoriaId": 5
+  }
+]
